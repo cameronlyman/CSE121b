@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSE 121b: Week 05 | Sample Solution</title>
+    <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <header>
+        <h1>Hang Man Helper</h1>
+    </header>
+    <main>
+        <section>
+            <h3>
+                Instructions:
+            </h3>
+            <ol>
+                <li>Type the word using ? for unknown letters (e.g. "a??le" if the word was "apple")</li>
+                <li>Type all known wrong letters</li>
+                <li>Click "Find Words"</li>
+            </ol>
+        </section>
+        <hr>
+        <section>
+            <form>
+                <label for="mystery_word">Word to guess:</label>
+                <input type="text" id="mystery_word"></br>
+                <label for="letters">Wrong letters guessed:</label>
+                <input type="text" id="letters"></br>
+                <input type="button" id="check_possible_words" value="Find words">
+            </form>
+        </section>
+        <section>
+            <h3>SOME POSSIBILITIES:</h3>
+            <ul id="possible_words">
+
+            </ul>
+        </section>
+    </main>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/task6.js"></script>
+</body>
+
+</html>

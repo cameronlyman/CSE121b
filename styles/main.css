@@ -1,0 +1,89 @@
+/* HTML Selectors */
+article {
+    margin: 10px;
+}
+
+body {
+    font-family: 'Kalam', cursive;
+}
+
+div {
+    margin: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+header {
+    margin: auto;
+    text-align: center;
+}
+
+img {
+    width: 80%;
+}
+
+label {
+    display: inline-block;
+    min-width: 120px;
+    text-align: right;
+}
+
+main {
+    text-align: center;
+}
+
+nav {
+    background-color: black;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+nav ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li:first-child {
+    display: block;
+}
+
+nav ul li {
+    display: none;
+    list-style: none;
+    margin: 10px;
+}
+
+nav ul li a {
+    color: white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: #efefef;
+    color: black;
+}
+
+section {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
